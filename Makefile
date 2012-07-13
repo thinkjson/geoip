@@ -1,5 +1,5 @@
 CFLAGS = -I. -I/usr/local/include -O3 -g
-LIBS = -L. -L/usr/local/lib -lgeoip
+LIBS = -L. -L/usr/local/lib -lGeoIP
 
 .PHONY : test
 
