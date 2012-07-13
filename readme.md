@@ -19,10 +19,6 @@ Then just clone and make:
 
 	geoip <infile >outfile
 
-Example invocation:
-
-	geoip <infile >outfile
-
 Example input:
 
 	Google	173.194.37.64	Some other text
