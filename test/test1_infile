@@ -1,0 +1,10 @@
+# Simple one IP lookups
+Google	173.194.37.64	Some other text
+China	116.1.0.0	This is a test
+
+# Should short-circuit on the first IP and return TW
+120.120.120.120	140.140.140.140	180.180.180.180
+
+# Skip some blank lines
+
+

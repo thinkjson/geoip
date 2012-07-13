@@ -1,16 +1,29 @@
 # geoip
 
-A command-line interface to the MaxMind GeoIP database for use with tab delimited files. Uses the [MaxMind C API](http://www.maxmind.com/app/c).
+A command-line interface to the MaxMind GeoIP database for use with tab delimited files. It reads fields from left to right, attempting to geolocate the contents of the field, and appends a field to the end with the first match. Requires the [MaxMind C API](http://www.maxmind.com/app/c).
+
+## Installation
+
+First ensure you have the MaxMind C API installed:
+
+	apt-get install libgeoip-dev
+
+Then just clone and make:
+
+	git clone git://github.com/thinkjson/geoip.git
+	cd geoip
+	make
+	make install
 
 ## Usage
 
-	geoip -f[fields] <infile >outfile
+	geoip <infile >outfile
 
 fields - a comma separated list of fields which contain hosts to reverse, in order. Once one has been successfully reversed, the rest will not be checked.
 
 Example invocation:
 
-	geoip -f2 <infile >outfile
+	geoip <infile >outfile
 
 Example input:
 
