@@ -19,8 +19,6 @@ Then just clone and make:
 
 	geoip <infile >outfile
 
-fields - a comma separated list of fields which contain hosts to reverse, in order. Once one has been successfully reversed, the rest will not be checked.
-
 Example invocation:
 
 	geoip <infile >outfile
