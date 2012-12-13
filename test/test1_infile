@@ -8,3 +8,13 @@ China	116.1.0.0	This is a test
 # Skip some blank lines
 
 
+# Print blank info for internal IP
+10.0.0.1	Test
+192.168.1.1	This is my router!
+There's no place like	127.0.0.1
+
+# Skip garbage
+hg849hg94h9h4398
+
+# Make sure a unicode city doesn't blow everything up
+200.31.75.14	Unicode test

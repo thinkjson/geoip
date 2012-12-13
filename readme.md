@@ -1,6 +1,6 @@
 # geoip
 
-A command-line interface to the MaxMind GeoIP database for use with tab delimited files. It reads fields from left to right, attempting to geolocate the contents of the field, and appends a field to the end with the first match. Requires the [MaxMind C API](http://www.maxmind.com/app/c).
+A command-line interface to the MaxMind GeoIP database for use with tab delimited files. It reads fields from left to right, attempting to geolocate the contents of the field, and appends geolocation information to the end with the first match. Requires the [MaxMind C API](http://www.maxmind.com/app/c).
 
 ## Installation
 
@@ -25,4 +25,4 @@ Example input:
 
 Example output:
 
-	Google	173.194.37.64	Some other text	US
+	Google	173.194.37.64	Some other text	US	CA	Mountain View	37.419201	-122.057404	94043

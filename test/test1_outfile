@@ -1,3 +1,8 @@
-Google	173.194.37.64	Some other text	US
-China	116.1.0.0	This is a test	CN
-120.120.120.120	140.140.140.140	180.180.180.180	TW
+Google	173.194.37.64	Some other text	US	CA	Mountain View	37.419201	-122.057404	94043
+China	116.1.0.0	This is a test	CN	16	Guilin	25.281900	110.286400	
+120.120.120.120	140.140.140.140	180.180.180.180	TW	03	Taipei	25.039200	121.525002	
+10.0.0.1	Test						
+192.168.1.1	This is my router!						
+There's no place like	127.0.0.1						
+hg849hg94h9h4398						
+200.31.75.14	Unicode test	CO	34	Bogotá	4.649200	-74.062798	
