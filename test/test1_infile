@@ -18,3 +18,6 @@ hg849hg94h9h4398
 
 # Make sure a unicode city doesn't blow everything up
 200.31.75.14	Unicode test
+
+# This causes a malloc error
+1328095795000000	unknown 1		GET /2.3/bible/versions.json?type=all	200	0	93658	0		http://android.youversion.com	Apache-HttpClient/UNAVAILABLE (java 1.4)					
